@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11120F">
+  <meta name="description" content="David Ogugor — Web Developer & Graphic Designer creating thoughtful digital experiences and visual systems.">
+  <meta property="og:title" content="David Ogugor — Web Developer & Graphic Designer">
+  <meta property="og:description" content="Technology × Design × Creativity. Explore David Ogugor's web development and graphic design work.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/portrait.jpg">
+  <title>David Ogugor — Web Developer × Graphic Designer</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="David Ogugor home"><span>DO</span><i></i></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+      <div class="nav-links" id="mobile-menu">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme"><span>◐</span></button>
+        <a class="nav-cta magnetic" href="#contact">Let's work together <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-dot"></span> Web Developer × Graphic Designer</p>
+          <h1 class="hero-title" aria-label="I turn ideas into digital experiences.">
+            <span class="line reveal">I turn</span>
+            <span class="line indent reveal">ideas into</span>
+            <span class="line reveal">digital <em>experiences.</em></span>
+          </h1>
+          <p class="hero-intro reveal">I combine code and visual design to build websites, interfaces and brand experiences that feel as good as they work.</p>
+          <div class="hero-actions reveal">
+            <a class="button button-fill magnetic" href="#work">View my work <span>↗</span></a>
+            <a class="button button-line magnetic" href="#contact">Let's talk <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-portrait-wrap reveal">
+          <div class="portrait-label label-top">CREATIVE<br>TECHNOLOGY</div>
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+              <img src="assets/images/potrait.jpeg" alt="Portrait of David Ogugor" onerror="this.style.display='none'; this.parentElement.classList.add('empty')">
+              <div class="portrait-fallback"><span>YOUR<br>PORTRAIT</span><small>Replace<br>portrait.jpg</small></div>
+            </div>
+            <div class="portrait-stamp">DO<br><span>2026</span></div>
+          </div>
+          <div class="portrait-label label-bottom">BASED IN<br>NIGERIA</div>
+        </div>
+      </div>
+      <div class="hero-footer container">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="hero-rule"></span>
+        <span>01 — 06</span>
+      </div>
+    </section>
+
+    <section class="statement section-pad">
+      <div class="container statement-grid">
+        <p class="section-number">01 / POSITIONING</p>
+        <div>
+          <h2>Two disciplines.<br><span>One creative mindset.</span></h2>
+          <p class="large-copy">I don't treat development and design as separate worlds. I use both to think through the full journey — from the first visual idea to the final interaction.</p>
+          <div class="discipline-flow" aria-label="Design to experience to development">
+            <div>DESIGN</div><span>→</span><div>EXPERIENCE</div><span>→</span><div>DEVELOPMENT</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-number">02 / SELECTED WORK</p><h2>Selected<br><span>work.</span></h2></div>
+          <p>A growing collection of websites, interfaces and visual projects built while developing my craft.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all" role="tab">All</button>
+          <button class="filter" data-filter="web" role="tab">Web Development</button>
+          <button class="filter" data-filter="design" role="tab">Graphic Design</button>
+          <!-- <button class="filter" data-filter="ui" role="tab">UI/UX</button> -->
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project project-wide reveal" data-category="web" data-title="Vendigo Food Orderind Platform " data-type="WEB DEVELOPMENT" data-description="A website Built and designed For Vendigo where users can go on in and make thier orders."  data-link="https://vendigo.com.ng"    data-tools="HTML, CSS, JS " data-outcome="A Food Odering Platform Built for Vendigo to help them scale thier operations">
+            <div class="project-visual visual-blue"><img src="assets/images/website-vendigo.png" alt=""></div>
+            <div class="project-meta"><div><span>WEB DEVELOPMENT</span><h3>Vendigo - food odering platform</h3></div><button class="project-open" aria-label="Open project details">↗</button></div>
+          </article>
+
+          <article class="project project-tall reveal" data-category="design" data-title="Brand Identity Study" data-type="GRAPHIC DESIGN" data-description="A  visual identity exploration focused on logo structure, typography and a cohesive color system." data-tools="Photoshop, Illustrator" data-outcome="A visual identity concept and supporting brand assets." data-link="#">
+            <div class="project-visual visual-rust"><img src="assets/images/graphic-designvendigo.png" alt=""></div>
+            <div class="project-meta"><div><span>GRAPHIC DESIGN</span><h3>Brand Identity Design</h3></div><button class="project-open" aria-label="Open project details">↗</button></div>
+          </article>
+
+          <!-- <article class="project project-square project-bottom reveal" data-category="design" data-title="Business campaign flyer" data-type="GRAPHIC DESIGN" data-description="A concept for a crochet clothing store that is functional and visually appealing." data-tools="Photoshop" data-outcome="A functional design." data-link="#">
+            <div class="project-visual visual-teal"><img class="pic" src="assets/images/BUSINESS DESIGN.png" alt=""></div>
+            <div class="project-meta"><div><span>GRAPHIC DESIGN</span><h3>Business Flyer</h3></div><button class="project-open" aria-label="Open project details">↗</button></div>
+          </article>
+ -->
+
+
+          <article class="project project-wide project-bottom reveal" data-category="web" data-title="Business Website Concept" data-type="WEB DEVELOPMENT" data-description="A responsive business website concept focused on hierarchy, conversion and a strong visual identity." data-tools="HTML, CSS, JavaScript, PHP, MySQL" data-outcome="A responsive frontend prototype." data-link=" https://david-280.github.io/Fuhsotransport/">
+            <div class="project-visual visual-olive"><img src="assets/images/website-fuhsoride.png" alt=""></div>
+            <div class="project-meta"><div><span>FULLSTACK WEB DEVELOPMENT</span><h3>Bus Ticketing WebApp (Website Construction in Progress)</h3></div><button class="project-open" aria-label="Open project details">↗</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section-pad">
+      <div class="container why-grid">
+        <p class="section-number">03 / THE ADVANTAGE</p>
+        <div class="why-copy">
+          <h2>I don't see design<br>and development as<br><em>separate worlds.</em></h2>
+          <p>Knowing how to design changes how I build. Knowing how to build changes how I design. That overlap helps me make decisions with both the screen and the user in mind.</p>
+          <div class="why-cards">
+            <div><b>01</b><strong>Looks intentional.</strong><span>Typography, hierarchy, composition and visual rhythm.</span></div>
+            <div><b>02</b><strong>Works naturally.</strong><span>Responsive layouts, interaction and usable interfaces.</span></div>
+            <div><b>03</b><strong>Feels complete.</strong><span>Design and development moving toward the same experience.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-pad" id="skills">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-number">04 / CAPABILITIES</p><h2>What I<br><span>bring.</span></h2></div><p>No artificial percentages. Just the capabilities I am actively building through projects and practice.</p></div>
+        <div class="skill-list">
+          <div class="skill-row"><span>01</span><h3>Development</h3><p>HTML · CSS · JavaScript · Responsive Design · Git/GitHub · Frontend Development · UI Implementation</p></div>
+          <div class="skill-row"><span>02</span><h3>Design</h3><p>Graphic Design · Brand Identity · Typography · Layout Design · Visual Composition · UI Design</p></div>
+          <div class="skill-row"><span>03</span><h3>Creative</h3><p>Art Direction · Creative Problem Solving · Visual Storytelling · Concept Development · Attention to Detail</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="gallery section-pad">
+      <div class="container">
+        <div class="gallery-head"><p class="section-number">05 / VISUAL WORK</p><h2>A visual<br><span>playground.</span></h2><p>Selected design directions. Replace these placeholders with your strongest original work.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item g1" data-image="" aria-label="View design work"><span>POSTER<br>01</span></button>
+          <button class="gallery-item g2" data-image="" aria-label="View design work"><span>BRAND<br>02</span></button>
+          <button class="gallery-item g3" data-image="" aria-label="View design work"><span>CAMPAIGN<br>03</span></button>
+          <button class="gallery-item g4" data-image="" aria-label="View design work"><span>IDENTITY<br>04</span></button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="process section-pad" id="process">
+      <div class="container process-grid">
+        <div><p class="section-number">06 / MY PROCESS</p><h2>From first<br><span>thought to finish.</span></h2><p class="process-note">A flexible process keeps the idea at the center while making room for experimentation and refinement.</p></div>
+        <div class="process-list">
+          <button class="process-item active" data-step="0"><span>01</span><div><h3>Discover</h3><p>Understand the idea, audience and objective.</p></div><i>+</i></button>
+          <button class="process-item" data-step="1"><span>02</span><div><h3>Design</h3><p>Explore visual directions and user experience.</p></div><i>+</i></button>
+          <button class="process-item" data-step="2"><span>03</span><div><h3>Build</h3><p>Turn the direction into a responsive digital experience.</p></div><i>+</i></button>
+          <button class="process-item" data-step="3"><span>04</span><div><h3>Refine</h3><p>Test, improve and polish the details.</p></div><i>+</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container about-grid">
+        <div class="about-image"><img src="assets/images/portrait.jpg" alt="David Ogugor" onerror="this.style.display='none'; this.parentElement.classList.add('empty')"><span>DAVID<br>OGUGOR</span></div>
+        <div class="about-copy"><p class="section-number">07 / ABOUT</p><h2>Curious by nature.<br><em>Intentional by craft.</em></h2><p>I'm David Ogugor, a Web Developer and Graphic Designer focused on turning ideas into clear, engaging digital experiences.</p><p>I enjoy learning by building  exploring website development, visual identity, interface design and the small details that make a piece of work feel considered.</p><p>My goal is simple: keep improving, keep creating and make every project better than the last.</p><div class="signature">DAVID O.</div></div>
+      </div>
+    </section>
+
+    <section class="learning section-pad">
+      <div class="container learning-grid">
+        <div><p class="section-number">08 / SPECIALTIES</p><h2>What I<br><span>Can do.</span></h2></div>
+        <div class="learning-cloud"><span>Web Development</span><span>Advanced JavaScript</span><span>Brand Design</span><span>Creative Direction</span></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-shape"></div>
+      <div class="container contact-inner">
+        <p class="section-number">10 / LET'S TALK</p>
+        <h2>Have an idea?<br><em>Let's make it real.</em></h2>
+        <p>I'm open to freelance projects, collaborations, partnerships and job opportunities.</p>
+       <a 
+        class="contact-email magnetic"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=davidogugor280@gmail.com"
+        target="_blank"
+        rel="noopener"
+      >
+        Let's Work <span>↗</span>
+      </a>
+        <div class="contact-links">
+          <a href="https://github.com/David-280" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/david-ogugor-9148b2338/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/profile.php?id=100077494347595" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top"><div><strong>DAVID OGUGOR</strong><span>WEB DEVELOPER × GRAPHIC DESIGNER</span></div><a href="#top">Back to top ↑</a></div>
+    <div class="container footer-bottom"><span>© 2026 David Ogugor</span></div>
+  </footer>
+
+  <div class="cursor" aria-hidden="true"><span>VIEW</span></div>
+
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close project details">×</button>
+      <p class="section-number" id="modal-type">PROJECT</p>
+      <h2 id="modal-title">Project</h2>
+      <p id="modal-description"></p>
+      <div class="case-grid">
+        <div><small>OVERVIEW</small><p id="modal-overview"></p></div>
+        <div><small>OBJECTIVE</small><p>Build a clear, useful and visually intentional experience.</p></div>
+        <div><small>APPROACH</small><p>Design decisions were guided by hierarchy, responsiveness and the intended user journey.</p></div>
+        <div><small>TOOLS</small><p id="modal-tools"></p></div>
+      </div>
+      <div class="modal-actions"><a id="modal-link" class="button button-fill" href="#" target="_blank" rel="noopener">View project ↗</a><button class="button button-line" data-close>Close</button></div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button data-lightbox-close aria-label="Close image">×</button>
+    <div class="lightbox-placeholder"><span>YOUR DESIGN</span><small>Add an image path to this gallery item in index.html.</small></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
